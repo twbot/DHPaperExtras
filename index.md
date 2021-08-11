@@ -67,11 +67,14 @@ Figure 10. Repeat-ability evaluation of the homography estimation methods.Top: a
 
 ---
 
-<img src="./images/walmart_Perspective.jpg" alt="4camResults" width="400"/>
-<img src="./images/EdgewoodSmith_Perspective.jpg" alt="4camResults" width="400"/>
-Walmart-Edgewood, NM. \\( \mu=53.75, \sigma=131.01 \\) Edgewood-Smith’s Pharmacy, NM. \\( \mu=97.19, \sigma=404.30 \\)
-<img src="./images/4camraw_WC3-4cam-FL3-2021-03-19_FloridaGainseville_Perspective.jpg" alt="4camResults" width="400"/>
-<img src="./images/4cam-2021-2-27_frame0_exp2-many_perspective2.jpg" alt="4camResults" width="400"/>
+<img src="./images/walmart_Perspective.jpg" alt="4camResults" width="200"/>
+Walmart-Edgewood, NM. \\( \mu=53.75, \sigma=131.01 \\) Edgewood-Smith’s 
+<img src="./images/EdgewoodSmith_Perspective.jpg" alt="4camResults" width="200"/>
+Pharmacy, NM. \\( \mu=97.19, \sigma=404.30 \\)
+<img src="./images/4camraw_WC3-4cam-FL3-2021-03-19_FloridaGainseville_Perspective.jpg" alt="4camResults" width="200"/>
+Gainesville, FL. \\( \mu=2622.23, \sigma=5993.91 \\)
+<img src="./images/4cam-2021-2-27_frame0_exp2-many_perspective2.jpg" alt="4camResults" width="200"/>
+Matanzas Inlet, FL. \\( \mu=2177.80, \sigma=64944.46 \\)
 
 Figure 11. Images composed (each from 4 cameras) by perspective homography estimation. Mean and std of the errors for each case are displayed.
 
