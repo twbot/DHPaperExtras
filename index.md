@@ -7,7 +7,7 @@ description: Additional Material
 
 <img src="./images/diagram.png" alt="Diagram" width="400"/>
 
-Figure 1. Diagram of stitching options in multi-camera Wide Area Motion Imagery (WAMI)
+Figure 1. Diagram of stitching options in multi-camera Wide Area Motion Imagery (WAMI).
 
 ---
 
@@ -33,11 +33,21 @@ Figure 4. Raw sample frames used in our experiments. Left to right and top to bo
 
 <img src="./images/homography_4cam_sketch.png" alt="homography_4cam_sketch" width="450"/>
 
-Figure 5. Geometric representation of the cameras' coordinate systems (blue vectors) in a 4-camera setup. One of the camera's coordinate system (with no loss of generality, \\( \textit{TR} \\)) is assumed as the reference. The other cameras have their coordinate systems defined relative to the reference TR, each by a \\( 3\times3 \\) rotation matrix (red arrows).
+Figure 5. Geometric representation of the cameras' coordinate systems (blue vectors) in a 4-camera setup. One of the camera's coordinate system (with no loss of generality, \\( \textit{TR} \\) ) is assumed as the reference. The other cameras have their coordinate systems defined relative to the reference TR, each by a \\( 3\times3 \\) rotation matrix (red arrows).
 
 ---
 
+<img src="./images/4cam-2021-2-27_frame0_exp2-many.png" alt="4camResults" width="400"/>
 
+Figure 6. Results of the affine and DH homography estimations on Edgewood-Walmart dataset Top: Affine homography (\\( \mu=26.20 \\),(\\( \sigma=31.08 \\) px), Bottom: DH (\\( \mu=2.23 \\), \\( \sigma=2.63 \\) px)
+
+---
+
+<img src="./images/4cam-fig7.png" alt="4camResults" width="400"/>
+
+Figure 7. Results of the affine and DH homography estimations on Gainesville dataset.  Top: Affine homography (\\( \mu=66.09.47 \\),(\\( \sigma=118.63 \\) px), Bottom: DH (\\( \mu=1.78 \\), \\( \sigma=1.87 \\) px)
+
+---
 
 
 
