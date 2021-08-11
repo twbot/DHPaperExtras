@@ -55,15 +55,15 @@ Figure 8. Results of the affine and DH homography estimations on Matanzas Inlet 
 
 ---
 
-<img src="./images/4camraw_WC3-4cam-FL3-2021-03-19_FloridaGainseville.jpg" alt="4camResults" width="600"/>
+<img src="./images/4camraw_WC3-4cam-FL3-2021-03-19_FloridaGainseville.jpg" alt="4camResults" width="450"/>
 
 Figure 9. Four camera image composition in the Gainesville dataset. Top: affine homography (\\( \mu=66.09 \\),\\( \sigma=118.63 \\) px). Bottom: The proposed DH method (\\( \mu=1.78 \\),\\( \sigma=1.87 \\) px). The region of interest is zoomed in and shown at the right of each result. Notice the duplication of the objects in the scene in the affine homography result.
 
 ---
 
-<img src="./images/repeatiability_Gainseville.png" alt="4camResults" width="600"/>
+<img src="./images/repeatiability_Gainseville.png" alt="4camResults" width="450"/>
 
-Figure 10. Repeat-ability evaluation of the homography estimation methods.Top: affine, bottom: our DH method. Each estimation method is repeated 10 times over the identical set of point correspondences. The four corners of the final composed image in each case/iteration are plotted. The (x,y) std of the  bottom-left and bottom-right corners when the affine approach was used are (140.4698, 402.8796) px and (41.1020, 159.2288), respectively. The same std values for our approach is are (0.1697, 0.0837) and (0.0921, 0.0046) px, respectively, when the proposed DH algorithm was used.
+Figure 10. Repeat-ability evaluation of the homography estimation methods.Top: affine, bottom: our DH method. Each estimation method is repeated 10 times over the identical set of point correspondences. The four corners of the final composed image in each case/iteration are plotted. The (x,y) std of the  bottom-left and bottom-right corners when the affine approach was used are (140.4698, 402.8796) px and (41.1020, 159.2288), respectively. The same std values for our approach are (0.1697, 0.0837) and (0.0921, 0.0046) px, respectively, when the proposed DH algorithm was used.
 
 ---
 
