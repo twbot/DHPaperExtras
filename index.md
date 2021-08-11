@@ -5,7 +5,9 @@ tagline:
 description: Additional Material
 ---
 
-<img src="./images/diagram.png" alt="Diagram" width="400"/>
+<img src="./images/diagram.png" alt="Diagram" width="400" style="display: block;
+  margin-left: auto;
+  margin-right: auto;" />
 
 Figure 1. Diagram of stitching options in multi-camera Wide Area Motion Imagery (WAMI)
 
