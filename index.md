@@ -1,8 +1,8 @@
 ---
 layout: page
-title: simple site
-tagline: Easy websites with GitHub Pages
-description: Minimal tutorial on making a simple website with GitHub Pages
+title: Analytical Image Stitching in Non-Rigid Multi-Camera WAMI
+tagline: 
+description: Additional Material
 ---
 
 [Github Pages](https://pages.github.com) provide a simple way to make a
