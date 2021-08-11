@@ -9,68 +9,16 @@ description: Additional Material
 
 Figure 1. Diagram of stitching options in multi-camera Wide Area Motion Imagery (WAMI)
 
-<img src="./images/4_Cam_4.jpg" alt="Diagram" width="400"/>
-<img src="./images/4_Cam_6.jpg" alt="Diagram" width="400"/>
+<img src="./images/4_Cam_4.jpg" alt="Diagram" width="300"/>
+<img src="./images/4_Cam_6.jpg" alt="Diagram" width="300"/>
 
 Figure 2. The four-camera WAMI system with a pinion gimbal.
 
-For me, the painful aspects of making a website are
+<img src="./images/homography.png" alt="Diagram" width="300"/>
+<img src="./images/infinite_homography.png" alt="Diagram" width="300"/>
 
-- Working with html and css
-- Finding a hosting site
-- Transferring stuff to the hosting site
+Figure 3. Left: Plane induced homography between two cameras. An estimated homography in this case is only valid for this particular plane $\pi$ (defined by its normal $\mathbf{n}$ and distance $d$. Right: Homography between two cameras that have only rotation components among their reference frames. This special case is known as \textit{infinite homography} which is, unlike a general homography, scene independent.
 
-With [GitHub Pages](https://pages.github.com), you just write things in
-[Markdown](https://daringfireball.net/projects/markdown/),
-[GitHub](https://github.com) hosts the site for you, and you just push
-material to your GitHub repository with `git add`, `git commit`, and
-`git push`.
+<img src="./images/raw_samples.jpg" alt="Diagram" width="300"/>
 
-If you love [git](https://git-scm.com/) and
-[GitHub](https://github.com), you'll love
-[GitHub Pages](https://pages.github.com), too.
-
-The sites use [Jekyll](https://jekyllrb.com/), a
-[ruby](https://www.ruby-lang.org/en/) [gem](https://rubygems.org/), to
-convert Markdown files to html, and this part is done
-automatically when you push the materials to the `gh-pages` branch
-of a GitHub repository.
-
-The [GitHub](https://pages.github.com) and
-[Jekyll](https://jekyllrb.com) documentation is great, but I thought it
-would be useful to have a minimal tutorial, for those who just want to
-get going immediately with a simple site. To some readers, what GitHub
-has might be simpler and more direct.  But if you just want to create
-a site like the one you're looking at now, read on.
-
-Start by reading the [Overview page](pages/overview.html), which
-explains the basic structure of these sites. Then read
-[how to make an independent website](pages/independent_site.html). Then
-read any of the other things, such as
-[how to test your site locally](pages/local_test.html).
-
-- [Overview](pages/overview.html)
-- [Making an independent website](pages/independent_site.html)
-- [Making a personal site](pages/user_site.html)
-- [Making a site for a project](pages/project_site.html)
-- [Making a jekyll-free site](pages/nojekyll.html)
-- [Testing your site locally](pages/local_test.html)
-- [Resources](pages/resources.html)
-
-If anything here is confusing (or _wrong_!), or if I've missed
-important details, please
-[submit an issue](https://github.com/kbroman/simple_site/issues), or (even
-better) fork [the GitHub repository for this website](https://github.com/kbroman/simple_site),
-make modifications, and submit a pull request.
-
----
-
-The source for this minimal tutorial is [on github](https://github.com/kbroman/simple_site).
-
-Also see my [tutorials](https://kbroman.org/tutorials) on
-[git/github](https://kbroman.org/github_tutorial),
-[GNU make](https://kbroman.org/minimal_make),
-[knitr](https://kbroman.org/knitr_knutshell),
-[R packages](https://kbroman.org/pkg_primer),
-[data organization](https://kbroman.org/dataorg),
-and [reproducible research](https://kbroman.org/steps2rr).
+Figure 4. Raw sample frames used in our experiments. Left to right and top to bottom: Edgewood Walmart (New Mexico), Edgewood Smith's Pharmacy (New Mexico ), Gaineville (Florida) and  Matanzas Inlet (Florida). Each image in each dataset is labelled by \\( \textit{TL} \\) (Top-Left), \\( \textit{TR} \\) (Top-Right), \\( \textit{BL} \\) (Bottom-Left) and \\( \textit{BR} \\) (Bottom-Right).
