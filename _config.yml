@@ -8,7 +8,7 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Additional Materials::Analytical Image Stitching in Non-Rigid Multi-Camera WAMI
+title : Analytical Image Stitching in Non-Rigid Multi-Camera WAMI
 author :
   name : Hadi Akbarpour
   email : hd.akbarpour@gmail.com
