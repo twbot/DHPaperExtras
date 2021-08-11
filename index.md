@@ -6,7 +6,7 @@ description: Additional Material
 ---
 
 
-![](../images/diagram.png)
+![](./images/diagram.png)
 
 Figure 1. Diagram of stitching options in multi-camera Wide Area Motion Imagery (WAMI)
 
