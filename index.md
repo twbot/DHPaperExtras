@@ -82,7 +82,7 @@ Figure 11. Images composed (each from 4 cameras) by perspective homography estim
 
 ---
 
-<img src="./images/table.png" alt="results-table" width="450"/>
+<img src="./images/table.png" alt="results-table" width="650"/>
 
 Figure 12. Quantitative comparison between three methods of estimating homographies for composing the images of the four cameras as one image. For each estimation method, three cases are used on each dataset: 2-point only, 3-point only and many points. NP notation indicates that the corresponding method is not able to work. Notice that only our DH method is able to stitch the four images. The relative angles between each of the three TL, BL, BT cameras and the TR camera using our proposed approach are estimated in all scenarios.
 
