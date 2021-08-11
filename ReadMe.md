@@ -2,6 +2,8 @@
 
 Webpage containing figures and charts for the paper entitled "Analytical Image Stitching in Non-Rigid Multi-Camera WAMI".
 
+https://twbot.github.io/DHPaperExtras/
+
 ---
 
 To the extent possible under law,
