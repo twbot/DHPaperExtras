@@ -8,13 +8,10 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : simple site
+title : Additional Materials::Analytical Image Stitching in Non-Rigid Multi-Camera WAMI
 author :
-  name : Karl Broman
-  email : kbroman@gmail.com
-  github : kbroman
-  twitter : kwbroman
-  feedburner : nil
+  name : Hadi Akbarpour
+  email : hd.akbarpour@gmail.com
 
 # NOTE: Replacing this next line with your own URL
 production_url : https://kbroman.github.io/simple_site
