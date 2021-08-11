@@ -5,14 +5,14 @@ tagline:
 description: Additional Material
 ---
 
-<img src="./images/diagram.png" alt="Diagram" width="200"/>
+<img src="./images/diagram.png" alt="Diagram" width="400"/>
 
 Figure 1. Diagram of stitching options in multi-camera Wide Area Motion Imagery (WAMI)
 
-[Github Pages](https://pages.github.com) provide a simple way to make a
-website using
-[Markdown](https://daringfireball.net/projects/markdown/) and
-[git](https://git-scm.com).
+<img src="./images/4_Cam_4.jpg" alt="Diagram" width="400"/>
+<img src="./images/4_Cam_6.jpg" alt="Diagram" width="400"/>
+
+Figure 2. The four-camera WAMI system with a pinion gimbal.
 
 For me, the painful aspects of making a website are
 
